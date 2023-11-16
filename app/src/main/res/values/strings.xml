@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ARoomVue</string>
+
+    <string name="change_model">Change Model</string>
+    <string name="instant_placement">Instant Placement</string>
+    <string name="depth_placement">Depth Placement</string>
+    <string name="plane_placement">Plane Placement</string>
+    <string name="best_placement">Best Placement</string>
+    <string name="app_name1">3D Model Viewer</string>
+    <string name="hello_view_node">Hello ViewNode</string>
+    <string name="point_your_phone_down">Point your phone down at an empty space, and move it around slowly</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/category_background"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".Category">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        style="@style/TextStyle"> <!-- Apply your TextStyle here -->
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:src="@drawable/living_room">
+            </ImageView>
+
+            <TextView
+                android:text="Living Room"
+                android:textSize="20dp"
+                style="@style/TextStyle"> <!-- Apply your TextStyle here -->
+            </TextView>
+
+            <Button
+                style="@style/CategoryButtonStyle"
+                android:id="@+id/livingRoomButton">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:src="@drawable/bed_room">
+            </ImageView>
+
+            <TextView
+                android:text="Bed Room"
+                android:textSize="20dp"
+                style="@style/TextStyle"> <!-- Apply your TextStyle here -->
+            </TextView>
+
+            <Button
+                android:id="@+id/bedRoomButton"
+                style="@style/CategoryButtonStyle">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="220dp"
+                android:src="@drawable/office">
+            </ImageView>
+
+            <TextView
+                android:text="Office"
+                android:textSize="20dp"
+                style="@style/TextStyle"> <!-- Apply your TextStyle here -->
+            </TextView>
+
+            <Button
+                style="@style/CategoryButtonStyle"
+                android:id="@+id/officeButton">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:src="@drawable/kitchen">
+            </ImageView>
+
+            <TextView
+                android:text="Kitchen"
+                android:textSize="20dp"
+                style="@style/TextStyle"> <!-- Apply your TextStyle here -->
+            </TextView>
+
+            <Button
+                style="@style/CategoryButtonStyle"
+                android:id="@+id/kitchenButton">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
